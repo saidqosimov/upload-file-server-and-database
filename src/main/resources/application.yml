@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fileupload
+    password: 1
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
+upload:
+  server:
+    folder: D:/uploadFolderPath
